@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Sketch';
+    src: url('CustomFont/KGBlankSpaceSketch.eot');
+    src: url('CustomFont/KGBlankSpaceSketch.eot?#iefix') format('embedded-opentype'),
+        url('CustomFont/KGBlankSpaceSketch.woff2') format('woff2'),
+        url('CustomFont/KGBlankSpaceSketch.woff') format('woff'),
+        url('CustomFont/KGBlankSpaceSketch.ttf') format('truetype'),
+        url('CustomFont/KGBlankSpaceSketch.svg#KGBlankSpaceSketch') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
