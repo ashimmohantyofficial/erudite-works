@@ -28,25 +28,10 @@ h6 {
 	font-weight: 700;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
-@font-face {
-    font-family: 'sketch';
-    src: url('../css/CustomFont/KGBlankSpaceSketch.eot');
-    src: url('../css/CustomFont/KGBlankSpaceSketch.eot?#iefix') format('embedded-opentype'),
-        url('../css/CustomFont/KGBlankSpaceSketch.woff2') format('woff2'),
-        url('../css/CustomFont/KGBlankSpaceSketch.woff') format('woff'),
-        url('../css/CustomFont/KGBlankSpaceSketch.ttf') format('truetype'),
-        url('../css/CustomFont/KGBlankSpaceSketch.svg#KGBlankSpaceSketch') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.font-sketch{
-
-   font-family: sketch;
-
-}
 .top-section{
-	padding: 120px 0
+	padding: 130px 0; 
+
+	
 }
 
 .page-section {
@@ -757,7 +742,7 @@ div#masonry_item{
 .dash-one{
 
 	position: absolute;
-	    top: 1350px;
+	    top: 1650px;
 	    right: 390px;
 	    width: 45%;
 	
@@ -767,7 +752,7 @@ div#masonry_item{
 .dash-two{
 
 	position: absolute;
-	top: 1570px;
+	top: 1870px;
 	right: 390px;
 	width: 50%;
 	
@@ -777,7 +762,7 @@ div#masonry_item{
 .dash-three{
 
 	position: absolute;
-	top: 2130px;
+	top: 2430px;
 	right: 320px;
 	width: 45%;
 	
@@ -786,7 +771,7 @@ div#masonry_item{
 .dash-four{
 
 	position: absolute;
-	top: 2340px;
+	top: 2740px;
 	right: 350px;
 	width: 45%;
 	
@@ -795,7 +780,7 @@ div#masonry_item{
 .dash-five{
 
 	position: absolute;
-	top: 2860px;
+	top: 3160px;
 	right: 320px;
 	width: 45%;
 	
@@ -804,7 +789,7 @@ div#masonry_item{
 .dash-six{
 
 	position: absolute;
-	top: 3160px;
+	top: 3460px;
 	right: 320px;
 	width: 45%;
 	
@@ -828,14 +813,14 @@ div#masonry_item{
 .triangle-top-left{
 	height: 250px;
 	width: 200px;
-	top: 890px;
+	top: 1290px;
 	align-content: flex-start;
 	position: absolute;
 }
 .triangle-top-right{
 	height: 250px;
 	width: 200px;
-	top: 905px;
+	top: 1305px;
 	right:0px;
 	align-content: flex-end;
 	position: absolute;
@@ -864,6 +849,18 @@ div#masonry_item{
 	align-content: flex-start;
 	position: absolute;
 }
+.triangle-home-left{
+	height: 440px;
+	width: 400px;
+	top: 193px;
+	align-content: flex-start;
+	position: absolute;
+
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+  }
 
 
 
