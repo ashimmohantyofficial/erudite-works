@@ -29,13 +29,13 @@ h6 {
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 .top-section{
-	padding: 130px 0; 
+	padding: 140px 0; 
 
 	
 }
 
 .page-section {
-	padding: 50px 0
+	padding: 80px 0
 }
 
 .contact-section{
@@ -742,7 +742,7 @@ div#masonry_item{
 .dash-one{
 
 	position: absolute;
-	    top: 1650px;
+	    top: 1850px;
 	    right: 390px;
 	    width: 45%;
 	
@@ -752,7 +752,7 @@ div#masonry_item{
 .dash-two{
 
 	position: absolute;
-	top: 1870px;
+	top: 2070px;
 	right: 390px;
 	width: 50%;
 	
@@ -762,7 +762,7 @@ div#masonry_item{
 .dash-three{
 
 	position: absolute;
-	top: 2430px;
+	top: 2630px;
 	right: 320px;
 	width: 45%;
 	
@@ -771,7 +771,7 @@ div#masonry_item{
 .dash-four{
 
 	position: absolute;
-	top: 2740px;
+	top: 2940px;
 	right: 350px;
 	width: 45%;
 	
@@ -780,7 +780,7 @@ div#masonry_item{
 .dash-five{
 
 	position: absolute;
-	top: 3160px;
+	top: 3360px;
 	right: 320px;
 	width: 45%;
 	
@@ -813,14 +813,14 @@ div#masonry_item{
 .triangle-top-left{
 	height: 250px;
 	width: 200px;
-	top: 1290px;
+	top: 1490px;
 	align-content: flex-start;
 	position: absolute;
 }
 .triangle-top-right{
 	height: 250px;
 	width: 200px;
-	top: 1305px;
+	top: 1505px;
 	right:0px;
 	align-content: flex-end;
 	position: absolute;
@@ -828,7 +828,7 @@ div#masonry_item{
 .triangle-bottom-left{
 	height: 250px;
 	width: 200px;
-	top: 2420px;
+	top: 2620px;
 	left: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -836,7 +836,7 @@ div#masonry_item{
 .triangle-middle-right{
 	height: 250px;
 	width: 200px;
-	top: 2020px;
+	top: 2220px;
 	right: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -844,7 +844,7 @@ div#masonry_item{
 .triangle-bottom-right{
 	height: 250px;
 	width: 200px;
-	top: 2920px;
+	top: 3120px;
 	right: 0px;
 	align-content: flex-start;
 	position: absolute;
