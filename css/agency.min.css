@@ -49,7 +49,7 @@ padding:70px;
 }
 
 .contact-section{
-	padding: 20px 0
+	padding: 30px 0
 }
 .about-section{
 
@@ -843,7 +843,16 @@ div#masonry_item{
 .triangle-bottom-left{
 	height: 250px;
 	width: 200px;
-	top: 2720px;
+	top: 2020px;
+	left: 0px;
+	align-content: flex-start;
+	position: absolute;
+}
+
+.left-two-bottom{
+	height: 250px;
+	width: 200px;
+	top: 3120px;
 	left: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -864,6 +873,15 @@ div#masonry_item{
 	align-content: flex-start;
 	position: absolute;
 }
+
+.triangle-bottom-right-two{
+	height: 250px;
+	width: 200px;
+	top: 4220px;
+	right: 0px;
+	align-content: flex-start;
+	position: absolute;
+}
 .triangle-home-left{
 	height: 440px;
 	width: 400px;
@@ -872,13 +890,26 @@ div#masonry_item{
 	position: absolute;
 
 }
-.true-bottom{
+
+.triangle-end-left{
 	height: 250px;
-	width: 250px;
-	bottom: 0px;
-	right: 200px;
-	left: 10px;
+	width: 200px;
+	top: 4890px;
+	align-content: flex-start;
+	position: absolute;
+}
+.triangle-end-right{
+	height: 250px;
+	width: 200px;
+	top: 4905px;
+	right:0px;
 	align-content: flex-end;
+	position: absolute;
+}
+.true-bottom{
+	bottom      : 10px;
+    left        : 50%;
+    margin-left : -100px; /* half width of img */
 	position: absolute;
 }
 
