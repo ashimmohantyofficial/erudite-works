@@ -33,9 +33,16 @@ h6 {
 
 	
 }
+h1.ew-color{
+	color: #455b66;
+}
+
+h2.ew-color{
+	color: #455b66;
+}
 
 .page-section {
-	padding: 80px 0
+	padding: 130px 0
 }
 
 .contact-section{
@@ -43,7 +50,7 @@ h6 {
 }
 .about-section{
 
-background: url("../img/Blog/BG.png");
+
 
   /* Full height */
   height: 100%;
@@ -58,7 +65,7 @@ background: url("../img/Blog/BG.png");
 .page-section h2.section-heading {
 	font-size: 40px;
 	margin-top: 0;
-	margin-bottom: 15px
+	margin-bottom: 35px
 }
 
 .page-section h3.section-subheading {
@@ -331,8 +338,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-	margin: 1rem;
-	max-width: 100vw
+	margin: 5rem;
+	max-width: 80%;
 }
 
 .portfolio-modal .modal-content {
@@ -373,8 +380,8 @@ header.masthead .intro-text .intro-heading {
 	position: absolute;
 	top: 25px;
 	right: 25px;
-	width: 75px;
-	height: 75px;
+	width: 65px;
+	height: 65px;
 	cursor: pointer;
 	background-color: transparent
 }
@@ -386,7 +393,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr {
 	z-index: 1051;
 	width: 1px;
-	height: 75px;
+	height: 42px;
 	margin-left: 35px;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -396,11 +403,12 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr .rl {
 	z-index: 1052;
 	width: 1px;
-	height: 75px;
+	height: 42px;
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 	background-color: #212529
 }
+
 
 .timeline {
 	position: relative;
@@ -645,7 +653,7 @@ section#contact .form-control:focus {
 	box-shadow: none
 }
 
-section#contact ::-webkit-input-placeholder 
+section#contact ::-webkit-input-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
@@ -736,13 +744,16 @@ div#masonry_item{
 	.dash{
 		display: block;
 	}
+	.what-we-do-second-item{
+		padding-top: 160px;
+	}
 }
 
 
 .dash-one{
 
 	position: absolute;
-	    top: 1850px;
+	    top: 1750px;
 	    right: 390px;
 	    width: 45%;
 	
@@ -752,7 +763,7 @@ div#masonry_item{
 .dash-two{
 
 	position: absolute;
-	top: 2070px;
+	top: 1970px;
 	right: 390px;
 	width: 50%;
 	
@@ -762,7 +773,7 @@ div#masonry_item{
 .dash-three{
 
 	position: absolute;
-	top: 2630px;
+	top: 2430px;
 	right: 320px;
 	width: 45%;
 	
@@ -771,7 +782,7 @@ div#masonry_item{
 .dash-four{
 
 	position: absolute;
-	top: 2940px;
+	top: 2640px;
 	right: 350px;
 	width: 45%;
 	
@@ -780,7 +791,7 @@ div#masonry_item{
 .dash-five{
 
 	position: absolute;
-	top: 3360px;
+	top: 2998px;
 	right: 320px;
 	width: 45%;
 	
@@ -789,7 +800,7 @@ div#masonry_item{
 .dash-six{
 
 	position: absolute;
-	top: 3460px;
+	top: 3100px;
 	right: 320px;
 	width: 45%;
 	
@@ -814,14 +825,14 @@ div#masonry_item{
 .triangle-top-left{
 	height: 250px;
 	width: 200px;
-	top: 1490px;
+	top: 1290px;
 	align-content: flex-start;
 	position: absolute;
 }
 .triangle-top-right{
 	height: 250px;
 	width: 200px;
-	top: 1505px;
+	top: 1405px;
 	right:0px;
 	align-content: flex-end;
 	position: absolute;
@@ -829,7 +840,7 @@ div#masonry_item{
 .triangle-bottom-left{
 	height: 250px;
 	width: 200px;
-	top: 2620px;
+	top: 2720px;
 	left: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -845,7 +856,7 @@ div#masonry_item{
 .triangle-bottom-right{
 	height: 250px;
 	width: 200px;
-	top: 3120px;
+	top: 3420px;
 	right: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -857,6 +868,15 @@ div#masonry_item{
 	align-content: flex-start;
 	position: absolute;
 
+}
+.true-bottom{
+	height: 250px;
+	width: 250px;
+	bottom: 0px;
+	right: 200px;
+	left: 10px;
+	align-content: flex-end;
+	position: absolute;
 }
 
 .navbar-nav li:hover>.dropdown-menu {
@@ -871,4 +891,8 @@ ul.social-buttons li a:hover {
 	background-color: #36b8fe
 }
 
+.div.what-we-do-second-item{
+
+	padding-top: 0px;
+}
 
