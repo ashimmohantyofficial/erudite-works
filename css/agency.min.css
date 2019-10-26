@@ -40,6 +40,9 @@ h1.ew-color{
 h2.ew-color{
 	color: #455b66;
 }
+h3.ew-color{
+	color: #455b66;
+}
 
 .page-section {
 	padding: 130px 0
@@ -332,6 +335,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
 	z-index: 2
+	
 }
 
 @media (min-width:767px) {
@@ -343,6 +347,11 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-dialog {
 	margin: 5rem;
 	max-width: 80%;
+	
+}
+.modal-backdrop{
+
+	background-color: black;
 }
 
 .portfolio-modal .modal-content {
@@ -757,7 +766,7 @@ div#masonry_item{
 
 	position: absolute;
 	    top: 1750px;
-	    right: 390px;
+	    right: 350px;
 	    width: 45%;
 	
 }
@@ -767,7 +776,7 @@ div#masonry_item{
 
 	position: absolute;
 	top: 1970px;
-	right: 390px;
+	right: 350px;
 	width: 50%;
 	
 }
