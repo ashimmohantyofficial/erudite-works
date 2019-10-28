@@ -346,25 +346,25 @@ header.masthead .intro-text .intro-heading {
 		margin: 0 0 30px
 	}
 }
-
 .portfolio-modal .modal-dialog {
-	margin: 5rem;
 	max-width: 80%;
-	
-}
-.modal-backdrop{
-
-	background-color: black;
+	max-height: 100%;
 }
 
 .portfolio-modal .modal-content {
-	padding: 100px 0;
 	text-align: center
 }
 
 .portfolio-modal .modal-content h2 {
 	font-size: 3em;
 	margin-bottom: 15px
+}
+.portfolio-modal .modal-body{
+	background: #8af0d8;
+}
+
+.form_input-field{
+	padding: 20px;
 }
 
 .portfolio-modal .modal-content p {
@@ -408,7 +408,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr {
 	z-index: 1051;
 	width: 1px;
-	height: 42px;
+	height: 32px;
 	margin-left: 35px;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -418,7 +418,8 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr .rl {
 	z-index: 1052;
 	width: 1px;
-	height: 42px;
+	height: 32px;
+
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 	background-color: #212529
