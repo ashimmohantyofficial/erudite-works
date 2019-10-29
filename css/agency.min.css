@@ -831,6 +831,7 @@ div#masonry_item{
 @media(min-width: 1196px){
 	.triangle-images{
 		display: block;
+		z-index: 1233;
 	}
 
 }
