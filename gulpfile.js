@@ -103,6 +103,7 @@ function js() {
       './js/*.js',
       '!./js/*.min.js',
       '!./js/contact_me.js',
+      '!./js/modal_form.js',
       '!./js/jqBootstrapValidation.js'
     ])
     .pipe(uglify())

@@ -43,32 +43,32 @@ h2.ew-color{
 	margin-top: 0;
 	margin-bottom: 35px
 }
+
+h2.ew-color-home{
+	color: #455b66;
+	margin-top: 20px;
+}
+
 h3.ew-color{
 	color: #455b66;
 }
 
 .page-section {
-	padding: 130px 0
+	padding: 70px 0
 }
 .what-wedo-section {
 padding:70px;
-}
+}	
+
+.resource-section {
+	padding:60px;
+	}
 
 .contact-section{
 	padding: 30px 0
 }
 .about-section{
-
-
-
-  /* Full height */
-  height: 100%;
-  padding: 100px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ padding: 30px;
 }
 
 .page-section h2.section-heading {
@@ -360,9 +360,6 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
 	font-size: 3em;
 	margin-bottom: 15px
-}
-.portfolio-modal .modal-body{
-	background: #8af0d8;
 }
 .portfolio-modal .modal-content p {
 	margin-bottom: 30px
@@ -786,7 +783,7 @@ div#masonry_item{
 .dash-three{
 
 	position: absolute;
-	top: 2430px;
+	top: 2330px;
 	right: 320px;
 	width: 45%;
 	
@@ -795,7 +792,7 @@ div#masonry_item{
 .dash-four{
 
 	position: absolute;
-	top: 2640px;
+	top: 2540px;
 	right: 350px;
 	width: 45%;
 	
@@ -804,7 +801,7 @@ div#masonry_item{
 .dash-five{
 
 	position: absolute;
-	top: 2998px;
+	top: 2898px;
 	right: 320px;
 	width: 45%;
 	
@@ -888,7 +885,7 @@ div#masonry_item{
 .triangle-bottom-right-two{
 	height: 250px;
 	width: 200px;
-	top: 4220px;
+	top: 4020px;
 	right: 0px;
 	align-content: flex-start;
 	position: absolute;
@@ -905,14 +902,14 @@ div#masonry_item{
 .triangle-end-left{
 	height: 250px;
 	width: 200px;
-	top: 4890px;
+	top: 4770px;
 	align-content: flex-start;
 	position: absolute;
 }
 .triangle-end-right{
 	height: 250px;
 	width: 200px;
-	top: 4905px;
+	top: 4705px;
 	right:0px;
 	align-content: flex-end;
 	position: absolute;
@@ -928,8 +925,6 @@ div#masonry_item{
 	display: block;
   }
 
-
-
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
@@ -939,5 +934,9 @@ ul.social-buttons li a:hover {
 .div.what-we-do-second-item{
 
 	padding-top: 0px;
+}
+.error-font{
+	font-size: 13px;
+	text-align: left;
 }
 
