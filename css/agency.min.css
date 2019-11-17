@@ -748,10 +748,7 @@ div#masonry_item{
 	}
 }
 
-.wedo-image{
 
-	z-index: 1234;
-}
 
 .dash{
 
@@ -765,6 +762,10 @@ div#masonry_item{
 	}
 	.what-we-do-second-item{
 		padding-top: 160px;
+	}
+
+	.wedo-image{
+		z-index: 1234;
 	}
 }
 
@@ -782,7 +783,7 @@ div#masonry_item{
 .dash-two{
 
 	position: absolute;
-	top: 1770px;
+	top: 1750px;
 	right: 350px;
 	width: 50%;
 	
