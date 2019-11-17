@@ -65,7 +65,10 @@ padding:70px;
 	}
 
 .contact-section{
-	padding: 60px;
+	padding: 20px;
+}
+.contact-container{
+	padding: 30px;
 }
 .about-section{
  padding: 80px;
