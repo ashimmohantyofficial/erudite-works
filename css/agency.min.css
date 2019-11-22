@@ -71,7 +71,7 @@ padding:70px;
 	padding: 30px;
 }
 .about-section{
- padding: 80px;
+ padding: 50px;
 }
 
 .page-section h2.section-heading {
@@ -746,6 +746,15 @@ div#masonry_item{
 
 		visibility: hidden;
 	}
+	
+}
+
+@media(min-width: 800px){
+
+	.padding-large-screen{
+		padding-top: 40px;
+	}
+	
 }
 
 
@@ -766,6 +775,23 @@ div#masonry_item{
 
 	.wedo-image{
 		z-index:1;
+	}
+	.hand-image-mobile{
+		padding-left: 0;
+	}
+}
+
+@media(max-width:500px){
+
+	.mobile-center{
+		text-align: center;
+		align-content: center;
+		align-items: center;
+	}
+	.hand-image-mobile{
+
+		align-items: center;
+		padding:0;
 	}
 }
 
