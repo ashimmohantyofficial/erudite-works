@@ -1012,14 +1012,14 @@ div#masonry_item{
 .triangle-end-left{
 	height: 250px;
 	width: 200px;
-	top: 4500px;
+	top: 4380px;
 	align-content: flex-start;
 	position: absolute;
 }
 .triangle-end-right{
 	height: 250px;
 	width: 200px;
-	top: 4505px;
+	top: 4470px;
 	right:0px;
 	align-content: flex-end;
 	position: absolute;
